@@ -9,8 +9,6 @@ mongoose.connection.on('error', (err) => {
 });
 console.log('Connected to DB');
 
-require('./models/Record');
-
 const app = require('./app');
 app.set('port', process.env.PORT || 8003);
 const server = app.listen(app.get('port'), () => {
