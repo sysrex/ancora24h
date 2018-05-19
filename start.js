@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 
 require('dotenv').config({ path: '.env' })
 
-mongoose.connect(process.env.DATABASE);
-mongoose.Promise = global.Promise;
-mongoose.connection.on('error', (err) => {
-  console.error(`Mongodb died → ${err.message}`);
-});
-console.log('Connected to DB');
+//mongoose.connect(process.env.DATABASE);
+//mongoose.Promise = global.Promise;
+//mongoose.connection.on('error', (err) => {
+//  console.error(`Mongodb died → ${err.message}`);
+//});
+//console.log('Connected to DB');
 
 const app = require('./app');
 app.set('port', process.env.PORT || 8003);

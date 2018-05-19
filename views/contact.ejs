@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Elder Care Template | Contact page</title>
+<%- include partials/ga.js %>
+
+<title>Ancora 24H | Contact</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -32,32 +34,13 @@
         <div class="container">
             <h1>Contact Us</h1>
             <ul class="title-menu">
-                <li><a href="index.html">home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                <li><a href="/">home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                 <li>Contact Us</li>
             </ul>          
         </div>
     </section>
     <!--End Page Title-->
 
-
-    <!--Start Google map area-->
-    <section class="google-map-area">
-        <div class="container-fullwidth">
-            <div 
-                class="google-map" 
-                id="contact-google-map" 
-                data-map-lat="44.799511" 
-                data-map-lng="-106.951309" 
-                data-icon-path="images/icons/map-marker.png" 
-                data-map-title="Sheridan School Special Education" 
-                data-map-zoom="12"
-                data-markers='{
-                    "marker-1": [44.799511, -106.951309, "<h4>Sheridan School Special Education</h4><p>201 N Connor St Sheridan, WY 82801</p>","images/icons/map-marker.png"]
-                }'>
-            </div>                    
-        </div>
-    </section>
-    <!--End Google map area-->  
 
 
     <!--contact-section-->
@@ -72,17 +55,17 @@
                         <li class="item">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <h5>Address</h5>
-                            <p>16/14 Babor Road, Mohammad pur <br>Dhaka, Bangladesh.</p>
+                            <p>3100 St. Pölten</p>
                         </li>
                         <li class="item">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <h5>Phone</h5>
-                            <p>+55 654 545 122 <br>+55 654 545 123</p>
+                            <p>+436764971450 <br>+436767707770</p>
                         </li>
                         <li class="item">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <h5>Email</h5>
-                            <p>info @example.com <br>info@Charity.com </p>
+                            <p>office@ancora24h.at</p>
                         </li>
                     </ul>
                 </div>
@@ -122,88 +105,8 @@
     </section>
     <!--End contact-section-->
 
-
-    <!--main-footer-->
-    <footer class="main-footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-column col-md-3 col-sm-6 col-xs-12">
-                        <div class="about-widget">
-                            <div class="footer-logo">
-                                <figure>
-                                    <a href="index.html"><img src="images/logo-2.png" alt=""></a>
-                                </figure>
-                            </div>
-                            <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip exea commodo.</p>
-                        </div>
-                    </div>
-                    <div class="footer-column col-md-2 col-sm-6 col-xs-12">
-                        <div class="service-widget">
-                            <h5>Services Link</h5>
-                            <ul class="service-link">
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Company History</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Services</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-column col-md-3 col-sm-6 col-xs-12">
-                        <div class="contact-widget">
-                            <h5>Contact Us</h5>
-                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit sed do eiusmod. </p>
-                            <ul class="contact-link">
-                                <li class="item">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <p>1201 park street, &nbsp;Avenue, Dhanmondy, Dhaka.</p>
-                                </li>
-                                <li class="item">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <p>[88] 657 524 332</p>
-                                </li>
-                                <li class="item">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="#"><p>info@fixera.com</p></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-column col-md-3 col-sm-6 col-xs-12 col-md-offset-1">
-                        <div class="contact-area">
-                            <h5>NewsLetter</h5>
-                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit sed do eiusmod. </p>
-                            <div class="default-form-area">
-                                <form id="contact-form-two" name="contact_form" class="default-form" action="inc/sendmail.php" method="post" novalidate="novalidate">
-                                    <div class="form-group">
-                                        <input type="email" placeholder="Enter your email">
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn-style-two" data-loading-text="Please wait...">Subscribe</button>
-                                    </div>                                      
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container clearfix">
-                <div class="copyright-text">
-                    <p><a href="index.html">ElderCare</a> &copy; 2017 All Right Reserved</p>
-                </div>
-                <ul class="social-links">
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </div>    
-    </footer>
-    <!--End main-footer-->
-
+<%- include partials/footer.ejs %>
+  
 </div>
 
 <!--End pagewrapper-->
