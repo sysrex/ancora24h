@@ -74,26 +74,25 @@
                         <h5>Send Message</h5>
                     </div>                    
                     <div class="default-form-area">
-                        <form id="contact-form" name="contact_form" class="default-form" action="sendemail.php" method="post" novalidate="novalidate">
+                        <form id="contact-form" name="contact_form" class="default-form" action="/contact" method="post" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                        <input type="text" placeholder="Your Name">
+                                        <input type="text" placeholder="Your Name" name="name">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" placeholder="Enter Email">
+                                        <input type="email" placeholder="Enter Email" name="email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" placeholder="Phone Number">
+                                        <input type="text" placeholder="Phone Number" name="phone">
                                     </div>
                                     <div class="form-group">
-                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
                                         <button class="btn-style-two" type="submit" data-loading-text="Please wait...">send message</button>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                        <textarea placeholder="Your Message"></textarea>
+                                        <textarea placeholder="Your Message" name="message"></textarea>
                                     </div>
                                 </div>
                             </div>                                        

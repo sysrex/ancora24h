@@ -16,8 +16,5 @@ exports.betreuer = async (req, res) => {
 
 exports.contactBetreuer = async (req, res) => {
   console.log(req.body);
-};
-
-exports.contact = async (req, res) => {
-    res.render('contact');
+  res.redirect('/betreuer');
 };
