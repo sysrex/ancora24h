@@ -11,17 +11,18 @@ exports.sendEmail = (req, res) => {
   const email = req.body.email;
   const message = req.body.message;
   
-    const transport = nodemailer.createTransport({
-        service: 'Mandrill',
-        auth: {
-        user: '',
-        pass: ''
-        }
-    })
+  const transport = nodemailer.createTransport({
+    service: 'Mailgun',
+    auth: {
+      user: process.env.MAIL_USER,
+      pass: process.env.MAIL_PASS
+    }
+  })
 
+  console.log(process.env.MAIL_USER);
 
 	const mailOptions = {
-		from: `Website <no-reply@ancora24h.at>`,
+		from: `Ancora24h Website <ancora24h@mercur.sysrex.uk>`,
 		to: `office@ancora24h.at`,
 		subject: `Contact Form Website`,
 		html: 'Name:' + ' ' + name + ' ' + '<br>'
