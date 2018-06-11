@@ -20,15 +20,10 @@
 
 
 <body>
-<div class="page-wrapper">  
-    
+<div class="page-wrapper">
 
-    <!-- .preloader -->
-    <div class="preloader"></div>
-    <!-- /.preloader -->
+<%- include partials/menu.ejs %>
 
-<%- include partials/menu.ejs %>    
-    
     <!--Page Title-->
     <section class="page-title">
         <div class="container">
@@ -36,7 +31,7 @@
             <ul class="title-menu">
                 <li><a href="/">home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                 <li>Services</li>
-            </ul>          
+            </ul>
         </div>
     </section>
     <!--End Page Title-->
@@ -47,149 +42,153 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                        <p>Wir kümmern uns:</p> 
-                            <li>-	um die Ermittlung vor Ort </li>
-                            <li>-	um die Vermittlung des passenden Betreuers nach Ihren Bedürfnissen </li>
-                            <li>-	um die Anmeldung der Betreuer wie auch die Meldung des Nebenwohnsitzes </li>
-                            <li>-	um die Organisation des Transportes </li>
-                            <li>-	um die Qualitätssicherung (2 Visiten pro Monat) </li>
-                            <li>-	um die Anmeldung der Landesförderung und dem Pflegegeld </li>
-                            <li>-	um die restlichen bürokratische Angelegenheiten </li>
-                            
-                            <br>
-                            <b>Preise:</b>
-                            <br>
-                            <b>Wir versuchen unsere Kostenaufstellung so günstig wie möglich zu gestalten, jedoch beachten Sie, dass gut bezahlte Kräfte auch gute Kräfte sind.</b>
-                            <br>
-                            Unsere Preise setzen sich zusammen aus:
-                            <li>- Honorar des Betreuers (je nach Pflegestufe) </li>
-                            <li>- SV-Beiträge des Betreuers </li>
-                            <li>- Transportkosten </li>
-                            <li>- Betreuungspauschale </li>
-                            <br>
-                            <p>Kostenbeispiel </p>
-                            <br>
-                            <b>Pflegestufe 1</b>
-                            <br>
-                            <table class="table table-striped">
-                                <tr>
-                                    <td>2 Betreuer pro Monat (2-Wochen Turnus)</td>
-                                    <td class="pull-right"></td>
-                                </tr>
-                                <tr>
-                                    <td>Honorar Betreuer inkl. Ust. Und SV-Beiträge</td>
-                                    <td class="pull-right">€1560,-</td> 
-                                </tr>
-                                <tr>
-                                    <td>Transport (4 Einheiten bei 2 Betreuern)</td>
-                                    <td class="pull-right">€200,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Betreuungspauschale inkl. Ust. &</td>
-                                    <td class="pull-right"></td>
-                                </tr>
-                                <tr>
-                                    <td>Qualitätssicherung </td>
-                                    <td class="pull-right">€130,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Gesamt</td>
-                                    <td class="pull-right">€1890,-*</td>
-                                </tr>
-                                <tr>
-                                    <td>Abzügl. Pflegegeld</td>
-                                    <td>€157,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Eigentliche Kosten</td>
-                                    <td>€1733,-</td>
-                                </tr>
-                            </table>
-                            <br>
-                            <b>Pflegestufe 4</b>
-                            <br>
-                            <table class="table table-striped">
-                                <tr>
-                                    <td>2 Betreuer pro Monat (2-Wochen Turnus)</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Honorar Betreuer inkl. Ust. Und SV-Beiträge</td>
-                                    <td>€2010,-</td> 
-                                </tr>
-                                <tr>
-                                    <td>Transport (4 Einheiten bei 2 Betreuern)</td>
-                                    <td>€200,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Betreuungspauschale inkl. Ust. &</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Qualitätssicherung </td>
-                                    <td>€240,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Gesamt</td>
-                                    <td>€2450,-*</td> </tr>
-                                <tr>
-                                    <td>Abzügl. Pflegegeld</td>
-                                    <td>- €667,60-</td>
-                                </tr>
-                                <tr>
-                                    <td>Abzügl. Sozial Förderung</td>
-                                    <td>-€550,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Eigentliche Kosten</td>
-                                    <td>€1232,4-</td>
-                                </tr>
-                            </table>
-                            <br>
-                            <b>Pflegestufe 7</b>
-                            <br>
-                            <table class="table table-striped">
-                                <tr>
-                                    <td>2 Betreuer pro Monat (2-Wochen Turnus)</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Honorar Betreuer inkl. Ust. Und SV-Beiträge</td>
-                                    <td>€2460,-</td> 
-                                </tr>
-                                <tr>
-                                    <td>Transport (4 Einheiten bei 2 Betreuern)</td>
-                                    <td>€200,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Betreuungspauschale inkl. Ust. &</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Qualitätssicherung </td>
-                                    <td>€360,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Gesamt</td>
-                                    <td>€3020,-*</td> </tr>
-                                <tr>
-                                    <td>Abzügl. Pflegegeld</td>
-                                    <td>- €1688,60-</td>
-                                </tr>
-                                <tr>
-                                    <td>Abzügl. Sozial Förderung</td>
-                                    <td>- €550,-</td>
-                                </tr>
-                                <tr>
-                                    <td>Eigentliche Kosten</td>
-                                    <td>€781,4-</td>
-                                </tr>
-                            </table>
+                    <p>Wir kümmern uns:</p>
+                    <ul>
+                        <li>-	um die Ermittlung vor Ort </li>
+                        <li>-	um die Vermittlung des passenden Betreuers nach Ihren Bedürfnissen </li>
+                        <li>-	um die Anmeldung der Betreuer wie auch die Meldung des Nebenwohnsitzes </li>
+                        <li>-	um die Organisation des Transportes </li>
+                        <li>-	um die Qualitätssicherung (2 Visiten pro Monat) </li>
+                        <li>-	um die Anmeldung der Landesförderung und dem Pflegegeld </li>
+                        <li>-	um die restlichen bürokratische Angelegenheiten </li>
+                    </ul>
+                    <b>Preise:</b>
+                    <b>Wir versuchen unsere Kostenaufstellung so günstig wie möglich zu gestalten, jedoch beachten Sie, dass gut bezahlte Kräfte auch gute Kräfte sind.</b>
+                    <p>Unsere Preise setzen sich zusammen aus:</p>
+                    <ul>
+                        <li>- Honorar des Betreuers (je nach Pflegestufe) </li>
+                        <li>- SV-Beiträge des Betreuers </li>
+                        <li>- Transportkosten </li>
+                        <li>- Betreuungspauschale </li>
+                    </ul>
+
+                    <p style="padding-top:10px;">Kostenbeispiel </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <b>Pflegestufe 1</b>
+
+                    <table class="table table-striped">
+                        <tr>
+                            <td width="70%;">2 Betreuer pro Monat (2-Wochen Turnus)</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Honorar Betreuer inkl. Ust. Und SV-Beiträge</td>
+                            <td>€1560,-</td>
+                        </tr>
+                        <tr>
+                            <td>Transport (4 Einheiten bei 2 Betreuern)</td>
+                            <td>€200,-</td>
+                        </tr>
+                        <tr>
+                            <td>Betreuungspauschale inkl. Ust. &</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Qualitätssicherung </td>
+                            <td>€130,-</td>
+                        </tr>
+                        <tr>
+                            <td>Gesamt</td>
+                            <td>€1890,-*</td>
+                        </tr>
+                        <tr>
+                            <td>Abzügl. Pflegegeld</td>
+                            <td>€157,-</td>
+                        </tr>
+                        <tr>
+                            <td>Eigentliche Kosten</td>
+                            <td>€1733,-</td>
+                        </tr>
+                    </table>
+
+                    <b>Pflegestufe 4</b>
+
+                    <table class="table table-striped">
+                        <tr>
+                            <td width="70%;">2 Betreuer pro Monat (2-Wochen Turnus)</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Honorar Betreuer inkl. Ust. Und SV-Beiträge</td>
+                            <td>€2010,-</td>
+                        </tr>
+                        <tr>
+                            <td>Transport (4 Einheiten bei 2 Betreuern)</td>
+                            <td>€200,-</td>
+                        </tr>
+                        <tr>
+                            <td>Betreuungspauschale inkl. Ust. &</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Qualitätssicherung </td>
+                            <td>€240,-</td>
+                        </tr>
+                        <tr>
+                            <td>Gesamt</td>
+                            <td>€2450,-*</td> </tr>
+                        <tr>
+                            <td>Abzügl. Pflegegeld</td>
+                            <td>- €667,60-</td>
+                        </tr>
+                        <tr>
+                            <td>Abzügl. Sozial Förderung</td>
+                            <td>-€550,-</td>
+                        </tr>
+                        <tr>
+                            <td>Eigentliche Kosten</td>
+                            <td>€1232,4-</td>
+                        </tr>
+                    </table>
                     <br>
-                    <br>        
-                <p><b>*Die Kosten sind abhängig von der Pflegestufe, Turnuseinheit und zu betreuende Personen pro Haushalt. Jegliche Fehler oder Änderungen sind vorbehalten. Eine genauere Kostenaufstellung erfolgt vor Ort.</b></p>
-            </div>  
-        </div>                                   
+                    <b>Pflegestufe 7</b>
+                    <br>
+                    <table class="table table-striped">
+                        <tr>
+                            <td width="70%;">2 Betreuer pro Monat (2-Wochen Turnus)</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Honorar Betreuer inkl. Ust. Und SV-Beiträge</td>
+                            <td>€2460,-</td>
+                        </tr>
+                        <tr>
+                            <td>Transport (4 Einheiten bei 2 Betreuern)</td>
+                            <td>€200,-</td>
+                        </tr>
+                        <tr>
+                            <td>Betreuungspauschale inkl. Ust. &</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Qualitätssicherung </td>
+                            <td>€360,-</td>
+                        </tr>
+                        <tr>
+                            <td>Gesamt</td>
+                            <td>€3020,-*</td> </tr>
+                        <tr>
+                            <td>Abzügl. Pflegegeld</td>
+                            <td>- €1688,60-</td>
+                        </tr>
+                        <tr>
+                            <td>Abzügl. Sozial Förderung</td>
+                            <td>- €550,-</td>
+                        </tr>
+                        <tr>
+                            <td>Eigentliche Kosten</td>
+                            <td>€781,4-</td>
+                        </tr>
+                    </table>
+
+                    <p><b>*Die Kosten sind abhängig von der Pflegestufe, Turnuseinheit und zu betreuende Personen pro Haushalt. Jegliche Fehler oder Änderungen sind vorbehalten. Eine genauere Kostenaufstellung erfolgt vor Ort.</b></p>
+                </div>
+
+            </div>
+        </div>
     </section>
     <!--End service-section-->
 
@@ -204,8 +203,8 @@
 <div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-long-arrow-up"></span></div>
 
 <script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery-2.1.4.js"></script> 
-<script type="js/jquery-1.10.2.min.js"></script> 
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="js/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script src="js/revolution.min.js"></script>

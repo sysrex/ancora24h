@@ -20,15 +20,9 @@
 
 
 <body>
-<div class="page-wrapper">  
-    
+<div class="page-wrapper">
+<%- include partials/menu.ejs %>
 
-    <!-- .preloader -->
-    <div class="preloader"></div>
-    <!-- /.preloader -->
-
-<%- include partials/menu.ejs %> 
-    
     <!--Page Title-->
     <section class="page-title">
         <div class="container">
@@ -36,7 +30,7 @@
             <ul class="title-menu">
                 <li><a href="/">home</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                 <li>Contact Us</li>
-            </ul>          
+            </ul>
         </div>
     </section>
     <!--End Page Title-->
@@ -50,7 +44,7 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="section-title">
                         <h5>Contact Info</h5>
-                    </div>                                       
+                    </div>
                     <ul class="contact-list">
                         <li class="item">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -72,7 +66,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="section-title">
                         <h5>Send Message</h5>
-                    </div>                    
+                    </div>
                     <div class="default-form-area">
                         <form id="contact-form" name="contact_form" class="default-form" action="/contact" method="post" novalidate="novalidate">
                             <div class="row">
@@ -95,7 +89,7 @@
                                         <textarea placeholder="Your Message" name="message"></textarea>
                                     </div>
                                 </div>
-                            </div>                                        
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -105,7 +99,7 @@
     <!--End contact-section-->
 
 <%- include partials/footer.ejs %>
-  
+
 </div>
 
 <!--End pagewrapper-->
@@ -115,8 +109,8 @@
 <div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-long-arrow-up"></span></div>
 
 <script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery-2.1.4.js"></script> 
-<script type="js/jquery-1.10.2.min.js"></script> 
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="js/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script src="js/revolution.min.js"></script>
